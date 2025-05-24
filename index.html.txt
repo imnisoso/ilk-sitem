@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <title>Sana Özel Bir Şey</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Canım Herifim 💖</h1>
+        <p>Senin için minik bir şey yaptım...</p>
+        <img src="https://media.giphy.com/media/3oz8xKaR836UJOYeOc/giphy.gif" alt="Kalpli Gif">
+        <button onclick="goster()">Tıkla ve Oku!</button>
+        <div id="surpriz" class="hidden">
+            <p>SÜREKLİ KAVGA DA ETSEK GÜN SONUNDA YİNE DE SENİ ÇOK SEVİYORUM</p>
+        </div>
+    </div>
+
+    <script>
+        function goster() {
+            document.getElementById("surpriz").classList.remove("hidden");
+        }
+    </script>
+</body>
+</html>
